@@ -9,8 +9,6 @@ import {
   resolveUserName,
 } from './users/user-tasks/user-tasks.component';
 import { NotFoundComponent } from './not-found/not-found.component';
-import {Task} from "./tasks/task/task.model";
-import {TasksService} from "./tasks/tasks.service";
 
 const dummyCanMatch: CanMatchFn = (route, segments) => {
   const router = inject(Router);
